@@ -19,7 +19,7 @@ from mani_skill.utils.registration import register_env
 class PosPushTEnv(PushTEnv):
     def compute_dense_reward(self, obs: Any, action: Array, info: Dict):
         # reward for overlap of the tees
-        reward = self.pseudo_render_reward()
+        reward = self.pseudo_render_intersection()
         return reward
     
 

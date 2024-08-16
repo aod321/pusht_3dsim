@@ -1,0 +1,2 @@
+sapien==3.0.0b1
+mani_skill==3.0.0b7
