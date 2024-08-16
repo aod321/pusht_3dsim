@@ -1,0 +1,3 @@
+[submodule "ManiSkill"]
+	path = ManiSkill
+	url = https://github.com/aod321/ManiSkill.git
